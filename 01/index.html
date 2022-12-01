@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro</title>
+    <meta name="description" content="Pomodoro Timer" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="timer-completion-border">
+        <svg width="518" height="518" viewBox="0 0 518 518">
+          <circle stroke-width="9px" cx="259" cy="259" r="254" />
+        </svg>
+      </div>
+      <div class="timer">
+        <div class="time">
+          <div class="minutes">
+            <input
+              id="minutesInput"
+              type="text"
+              name="minutes"
+              value="25"
+              maxlength="2"
+              aria-label="Minutes input"
+              disabled
+            />
+          </div>
+          <div class="colon">:</div>
+          <div class="seconds">
+            <input
+              id="secondsInput"
+              type="text"
+              name="minutes"
+              value="00"
+              maxlength="2"
+              aria-label="Seconds input"
+              disabled
+            />
+          </div>
+        </div>
+        <button id="startStopBtn" class="start">start</button>
+        <button id="settingsBtn" class="settings">
+          <img src="images/gear.svg" alt="Settings" />
+        </button>
+      </div>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
