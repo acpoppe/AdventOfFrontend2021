@@ -15,17 +15,21 @@
     <div class="wrapper">
       <img
         src="images/bg__btm-right.svg"
-        class="bg btm-right"
+        class="bg-img btm-right"
         alt="Background Design"
       />
-      <img src="images/bg__left.svg" class="bg left" alt="Background Design" />
+      <img
+        src="images/bg__left.svg"
+        class="bg-img left"
+        alt="Background Design"
+      />
       <img
         src="images/bg__top-right.svg"
-        class="bg top-right"
+        class="bg-img top-right"
         alt="Background Design"
       />
       <div class="content">
-        <div class="menu">
+        <div class="container-box menu">
           <h2>To Go Menu</h2>
           <div class="menu-item blue">
             <img
@@ -33,9 +37,11 @@
               class="menu-item-img"
               alt="French Fries"
             />
-            <h4>French Fries with Ketchup</h4>
-            <h3>$2.23</h3>
-            <button class="btn btn-cart">Add to Cart</button>
+            <div class="menu-item-info">
+              <h4>French Fries with Ketchup</h4>
+              <h3>$2.23</h3>
+              <button class="btn btn-cart">Add to Cart</button>
+            </div>
           </div>
           <div class="menu-item pink">
             <img
@@ -43,19 +49,23 @@
               class="menu-item-img"
               alt="Salmon and Vegetables"
             />
-            <h4>Salmon and Vegetables</h4>
-            <h3>$5.12</h3>
-            <button class="btn btn-cart">Add to Cart</button>
+            <div class="menu-item-info">
+              <h4>Salmon and Vegetables</h4>
+              <h3>$5.12</h3>
+              <button class="btn btn-cart">Add to Cart</button>
+            </div>
           </div>
           <div class="menu-item grey">
             <img
               src="images/plate__spaghetti-meat-sauce.png"
               class="menu-item-img"
-              alt="Spaghetti and Meat Sauce"
+              alt="Spaghetti with Meat Sauce"
             />
-            <h4>Spaghetti and Meat Sauce</h4>
-            <h3>$7.82</h3>
-            <button class="btn btn-cart">Add to Cart</button>
+            <div class="menu-item-info">
+              <h4>Spaghetti and Meat Sauce</h4>
+              <h3>$7.82</h3>
+              <button class="btn btn-cart">Add to Cart</button>
+            </div>
           </div>
           <div class="menu-item green">
             <img
@@ -63,80 +73,82 @@
               class="menu-item-img"
               alt="French Fries"
             />
-            <h4>French Fries with Ketchup</h4>
-            <h3>$2.23</h3>
-            <button class="btn btn-cart">Add to Cart</button>
-          </div>
-        </div>
-        <div class="cart">
-          <h2>Your Cart</h2>
-          <h4 class="cart-empty">Your cart is empty.</h4>
-          <div class="cart-items">
-            <div class="item">
-              <div>
-                <img
-                  src="images/plate__french-fries.png"
-                  class="cart-item-img"
-                  alt="French Fries"
-                />
-                <h3 class="quantity-image-count">2</h3>
-              </div>
-              <div class="cart-item-info">
-                <h4>French Fries</h4>
-                <h3>$2.23</h3>
-                <div class="quantity-and-total-row">
-                  <button class="btn btn-less">
-                    <img src="images/chevron.svg" alt="Less" />
-                  </button>
-                  <h3>2</h3>
-                  <button class="btn btn-more">
-                    <img class="flipped" src="images/chevron.svg" alt="More" />
-                  </button>
-                  <h3>$4.46</h3>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div>
-                <img
-                  src="images/plate__spaghetti-meat-sauce.png"
-                  class="cart-item-img"
-                  alt="Spaghetti with Sauce"
-                />
-                <h3 class="quantity-image-count">2</h3>
-              </div>
-              <div class="cart-item-info">
-                <h4>Spaghetti with Sauce</h4>
-                <h3>$7.82</h3>
-                <div class="quantity-and-total-row">
-                  <button class="btn btn-less">
-                    <img src="images/chevron.svg" alt="Less" />
-                  </button>
-                  <h3>2</h3>
-                  <button class="btn btn-more">
-                    <img class="flipped" src="images/chevron.svg" alt="More" />
-                  </button>
-                  <h3>$15.64</h3>
-                </div>
-              </div>
+            <div class="menu-item-info">
+              <h4>French Fries with Ketchup</h4>
+              <h3>$2.23</h3>
+              <button class="btn btn-cart">Add to Cart</button>
             </div>
           </div>
-          <div class="cart-total">
-            <div class="total-row">
-              <h3>Subtotal</h3>
-              <h3>$20.10</h3>
-            </div>
-            <div class="total-row">
-              <h3>Tax</h3>
-              <h3>$1.96</h3>
-            </div>
-            <div class="total-row purple-text">
-              <h3>Total</h3>
-              <h3>$30.12</h3>
-            </div>
         </div>
       </div>
-      <h1>Hello, World!</h1>
+      <div class="container-box cart">
+        <h2>Your Cart</h2>
+        <h4 class="cart-empty">Your cart is empty.</h4>
+        <div class="cart-items">
+          <div class="item">
+            <div class="cart-item-image-block">
+              <img
+                src="images/plate__french-fries.png"
+                class="cart-item-img"
+                alt="French Fries"
+              />
+              <h3 class="quantity-image-count">2</h3>
+            </div>
+            <div class="cart-item-info">
+              <h4>French Fries</h4>
+              <h3 class="subtitle">$2.23</h3>
+              <div class="quantity-and-total-row">
+                <button class="btn btn-less">
+                  <img src="images/chevron.svg" alt="Less" />
+                </button>
+                <h3 class="selector-inner-quantity">2</h3>
+                <button class="btn btn-more">
+                  <img class="flipped" src="images/chevron.svg" alt="More" />
+                </button>
+                <h3>$4.46</h3>
+              </div>
+            </div>
+          </div>
+          <div class="border thin"></div>
+          <div class="item">
+            <div class="cart-item-image-block">
+              <img
+                src="images/plate__spaghetti-meat-sauce.png"
+                class="cart-item-img"
+                alt="Spaghetti with Sauce"
+              />
+              <h3 class="quantity-image-count">2</h3>
+            </div>
+            <div class="cart-item-info">
+              <h4>Spaghetti with Sauce</h4>
+              <h3 class="subtitle">$7.82</h3>
+              <div class="quantity-and-total-row">
+                <button class="btn btn-less">
+                  <img src="images/chevron.svg" alt="Less" />
+                </button>
+                <h3 class="selector-inner-quantity">2</h3>
+                <button class="btn btn-more">
+                  <img class="flipped" src="images/chevron.svg" alt="More" />
+                </button>
+                <h3>$15.64</h3>
+              </div>
+            </div>
+          </div>
+          <div class="border thick"></div>
+        </div>
+        <div class="cart-total">
+          <div class="total-column">
+            <h3 class="label">Subtotal:</h4>
+            <h3 class="label">Tax:</h4>
+            <h3 class="label">Total:</h4>
+          </div>
+          <div class="total-column">
+            <h3>$20.10</h4>
+            <h3>$1.96</h4>
+            <h3 class="purple-total">$30.12</h4>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="scripts/index.js"></script>
   </body>
