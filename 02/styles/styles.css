@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --bg-color: #eff0f6;
+  --border-color: #d7d6fc;
+  --primary-purple: #6b00f5;
+  --patterns-blue: #e1f0fe;
+  --ghost-white: #f7f7ff;
+  --white-ice: #defef0;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.wrapper {
+  min-height: 100vw;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-img {
+  position: fixed;
+  z-index: -1;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.btm-right {
+  bottom: 0;
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.container-box {
+  background-color: white;
+  border-radius: 25px;
+  height: 812px;
+  margin: 25px;
+  overflow: hidden;
+  padding-left: 35px;
+}
+
+.menu {
+  width: 375px;
+}
+
+.cart {
+  width: 375px;
+}
+
+.menu-item {
+  align-items: center;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.blue {
+  background: rgba(122, 179, 243, 0.2);
+}
+
+.pink {
+  background: rgba(233, 121, 178, 0.2);
+}
+
+.grey {
+  background: rgba(215, 215, 249, 0.2);
+}
+
+.green {
+  background: rgba(120, 247, 187, 0.2);
+}
+
+.menu-item-img {
+  position: relative;
+  top: -25px;
+  left: -20px;
+  margin: -5px;
+  padding: 0;
+  width: 148px;
+}
+
+.menu-item-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  margin-top: 20px;
+  margin-right: 25px;
+  padding: 0;
+}
+
+.btn {
+  background-color: var(--primary-purple);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 4px 18px;
+  text-align: center;
+}
+
+.btn-cart {
+  position: relative;
+  top: 10px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
