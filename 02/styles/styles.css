@@ -146,10 +146,6 @@ h4 {
   word-wrap: break-word;
 }
 
-.cart-empty {
-  visibility: hidden;
-}
-
 .cart-items {
   display: flex;
   flex-direction: column;
