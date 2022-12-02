@@ -3,26 +3,26 @@
     {
       "name": "French Fries with Ketchup",
       "price": "2.23",
-      "bg-color": "blue",
-      "img-name": "plate__french-fries.png"
+      "bgColor": "blue",
+      "imgName": "plate__french-fries.png"
     },
     {
       "name": "Salmon and Vegetables",
       "price": "5.12",
-      "bg-color": "pink",
-      "img-name": "plate__salmon-vegetables.png"
+      "bgColor": "pink",
+      "imgName": "plate__salmon-vegetables.png"
     },
     {
       "name": "Spaghetti with Meat Sauce",
       "price": "7.82",
-      "bg-color": "grey",
-      "img-name": "plate__spaghetti-meat-sauce.png"
+      "bgColor": "grey",
+      "imgName": "plate__spaghetti-meat-sauce.png"
     },
     {
       "name": "French Fries with Ketchup",
       "price": "2.23",
-      "bg-color": "blue",
-      "img-name": "plate__french-fries.png"
+      "bgColor": "blue",
+      "imgName": "plate__french-fries.png"
     }
   ]
 }
