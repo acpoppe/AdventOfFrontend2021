@@ -1,9 +1,22 @@
-<script>
+<script lang="ts">
+	import { onMount } from 'svelte';
 	import Piano from '$lib/piano.svelte';
+
+	let piano: any;
+
+	onMount(() => {
+		let keys = piano.$$.root.children[0].children[0].children;
+		const elements: Element[] = Array.from(keys);
+		elements.forEach((el: Element, index: number) => {
+			el.addEventListener('click', () => {
+				new Audio(`src/static/audio/key-${index + 1}.mp3`).play();
+			});
+		});
+	});
 </script>
 
 <div class="wrapper">
-	<Piano />
+	<Piano bind:this={piano} />
 </div>
 
 <style>
