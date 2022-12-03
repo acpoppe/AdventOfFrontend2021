@@ -7,3 +7,4 @@ I don't have any specific objective with these, so projects may be in whatever f
 | Day | Title | CSS Type(s) | JS Type(s) |
 | --- | --- | --- | --- |
 | 1   | Pomodoro | Vanilla CSS | Vanilla JS |
+| 2   | eCommerce | Vanilla CSS | Vanilla JS |
