@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "French Fries with Ketchup",
+      "price": "2.23",
+      "bgColor": "blue",
+      "imgName": "plate__french-fries.png"
+    },
+    {
+      "name": "Salmon and Vegetables",
+      "price": "5.12",
+      "bgColor": "pink",
+      "imgName": "plate__salmon-vegetables.png"
+    },
+    {
+      "name": "Spaghetti with Meat Sauce",
+      "price": "7.82",
+      "bgColor": "grey",
+      "imgName": "plate__spaghetti-meat-sauce.png"
+    },
+    {
+      "name": "French Fries with Ketchup",
+      "price": "2.23",
+      "bgColor": "blue",
+      "imgName": "plate__french-fries.png"
+    }
+  ]
+}
