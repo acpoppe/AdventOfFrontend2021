@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+	--keyboard-background-color: #f6f6f6;
+
+	--gold: #ffd200;
+	--gray: #868888;
+	--teal: #60c1b6;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	min-width: 100vw;
+}
